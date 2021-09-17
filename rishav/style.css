@@ -1,0 +1,22 @@
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+}
+.card {
+    width: 350px;
+    border: none;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    border-radius: 12px
+}
+.game-name {
+    margin-top: -10px;
+    font-size: 40px;
+    font-family: 'Aladin';
+}
+
+.fw-500 {
+    font-weight: 500 !important
+}

@@ -1,0 +1,14 @@
+canvas{ 
+    border :solid 1px #000;
+    position:absolute; 
+    top:0;bottom:0;right:0;left:0; 
+    margin:auto; 
+} 
+.canvas-container {
+    height: 550px;
+    width: 100%;
+    background: #131313;
+    background: -webkit-linear-gradient(to left, #141414, #b3b3b3);
+    background: linear-gradient(to left, #111111, #b3b3b3);
+    color: #fff;
+}

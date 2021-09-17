@@ -1,0 +1,230 @@
+.carousel-item {
+    max-height: 60vh;
+}
+.cheight {
+    max-height: 60vh;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.card-img-top {
+    width: 100% !important;
+}
+.card-width {
+    width: 49%; 
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+ }
+ .bg-grey {
+    background: #292929;
+ }
+ .logo-footer {
+    margin-bottom: 40px;
+ }
+ footer {
+        color: grey;
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: grey;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+ .btn-footer {
+             color: grey;
+          
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 7px 30px;
+            line-height: 47px;
+ }
+ .btn-footer:hover {
+            
+            text-decoration: none;
+           
+ }
+.form-footer input[type="text"] {
+    border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+    margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+ .social .fa {
+color: grey;
+font-size: 22px;
+padding: 10px 15px;
+background: #3c3c3c;
+}
+ footer ul li {
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: grey;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
+color: #f5f5f5 !important;
+
+}
+.logo-part {
+border-right: 1px solid grey;
+height: 100%;
+} 
+/*body {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+nav {
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Aladin;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 40px;
+    background-color: #242424;
+}
+.cool-background {
+    width: 100%;
+    background: #131313;
+    background: -webkit-linear-gradient(to left, #141414, #b3b3b3);
+    background: linear-gradient(to left, #111111, #b3b3b3);
+    color: #fff;
+}
+.name {
+    text-align-last: right;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    color: #dbdbdb !important;
+}
+.card {
+    background: rgb(95, 95, 95, 0.8) !important;
+}
+.btn {
+    min-width: 50px;
+}
+.form-control {
+    margin-bottom: 1rem !important;
+}
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #c4c4c4;
+    font-family: Aladin;
+}
+.form {
+    min-height: 100%;
+    width: 33%;
+    overflow: auto;
+    max-height: 64vh;
+    padding: 20px;
+}
+.suggestion_window {
+    min-height: 100%;
+    width: 67%;
+    overflow: auto;
+    max-height: 64vh;
+    background-color: rgb(105, 105, 105, 0.4) !important;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+}
+.wrap {
+    display: flex;
+    margin: 8%;
+    margin-top: 10%;
+    background: -webkit-linear-gradient(to left, #1b1b1b, #b3b3b3);
+    background: linear-gradient(to left, #1b1b1b, #cecece);
+    color: #fff;
+    border-radius: 10px;
+}*/
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: Aladin;
+    padding: 5px 10px;
+    color: rgb(95, 95, 95);
+    background-color: #242424;
+}
+
+@media (max-width: 900px) {
+    .card-width {
+        width: 95%; 
+    }
+}
+/*
+@media (max-width: 650px) {
+    .form {
+        width: 100% !important;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    nav {
+        padding: 10px 20px;
+    }
+    .suggestion_window {
+        width: 100% !important;
+        border-radius: 0 0 10px 10px;
+        background: -webkit-linear-gradient(to left, #1b1b1b, #b3b3b3);
+        background: linear-gradient(to left, #1b1b1b, #cecece);
+    }
+    .wrap {
+        display: grid;
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+}
+*/

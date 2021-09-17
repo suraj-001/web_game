@@ -1,0 +1,141 @@
+body {
+    font-family: 'Aladin', Tahoma, Geneva, Verdana, sans-serif;
+    background: #131313;
+    background: -webkit-linear-gradient(to left, #141414, #b3b3b3);
+    background: linear-gradient(to left, #111111, #b3b3b3);
+}
+h1 {
+    font-size: 3em;
+    color: #776E65;
+    float:left;
+}
+
+.score {
+    float: right;
+    width: 150px;
+    height: 70px;
+    background-color: #776E65;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.score span {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    overflow: hidden;
+}
+.game-container {
+    margin: auto;
+    width: 450px;
+}
+.grid-container {
+    width:344;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(4,  100px);
+    grid-auto-flow: column;
+    background-color: #5a5753;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.grid {
+    font-size: 3em;
+    color: #776E65;
+    font-weight: bolder;
+    display: flex;
+    background-color: lightgray;
+    border-radius: 5px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Colors for tiles */
+.tile-2 {
+    background-color: #eee4da;
+}
+.tile-4 {
+    background-color: #eee1c9;
+}
+.tile-8 {
+    background-color: #f3b27a; 
+    color: white;
+}
+.tile-16 {
+    background-color: #f69664; 
+    color: white;
+}
+.tile-32 {
+    background-color: #f77c5f; 
+    color: white;
+}
+.tile-64 {
+    background-color: #f75f3b; 
+    color: white;
+}
+.tile-128 {
+    background-color: #edd073; 
+    color: white;
+}
+.tile-256 {
+    background-color: #edcc62; 
+    color: white;
+}
+.tile-512 {
+    background-color: #edc950; 
+    color: white;
+}
+.tile-1024 {
+    background-color: #edc53f; 
+    color: white;
+    font-size: 2em;
+}
+.tile-2048 {
+    background-color: #edc22e; 
+    color: white;
+    font-size: 2em;
+}
+.tile-max {
+    background-color: darkslategray;
+    color: white;
+    font-size: 2em;
+}
+
+/*extra*/
+.card {
+    width: 350px;
+    border: none;
+    box-shadow: 5px 6px 6px 2px black;
+    border-radius: 12px
+}
+
+.circle-image img {
+    border: 6px solid #fff;
+    border-radius: 100%;
+    padding: 9px;
+    top: -28px;
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    z-index: 1;
+    background: #e7d184;
+    cursor: pointer
+}
+
+.game-name {
+    margin-top: -10px;
+    font-size: 40px;
+    font-family: 'Aladin';
+}
+
+.fw-500 {
+    font-weight: 500 !important
+}
